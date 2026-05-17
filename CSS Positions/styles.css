@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#parent {
+  height: 800px;
+  width: 900px;
+  background-color: aqua;
+  position: relative;
+  margin: 30px;
+}
+#box1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: static;
+  display: inline-block;
+}
+
+#box2 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+}
+
+#box3 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+}
+
+#box4 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+}
